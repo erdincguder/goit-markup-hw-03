@@ -170,6 +170,52 @@ h3 {
   color: var(--cloud);
 }
 
+/* 3.ödev için */
 .container {
-  width: 1158px;
+  width: 1440px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-flex {
+  display: flex;
+}
+
+.navbar-flex {
+  display: flex;
+  gap: 40px;
+  padding-right: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.contact-flex {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo {
+  padding: 24px 76px 24px 156px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
