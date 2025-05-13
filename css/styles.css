@@ -219,3 +219,17 @@ ul {
 *::after {
   box-sizing: border-box;
 }
+
+.hero {
+  padding: 188px 0;
+  margin-bottom: 120px;
+}
+
+.section-hero-text {
+  padding-bottom: 48px;
+}
+
+.btn-hero {
+  padding: 16px 32px;
+  border-radius: 4px;
+}
