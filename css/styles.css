@@ -173,6 +173,7 @@ h3 {
 /* 3.ödev için */
 .container {
   width: 1440px;
+  margin: 0 156px;
 }
 
 h1,
@@ -232,4 +233,47 @@ ul {
 .btn-hero {
   padding: 16px 32px;
   border-radius: 4px;
+}
+
+.features-flex {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+}
+
+.section-features {
+  margin: 0 156px;
+  margin-bottom: 120px;
+}
+
+.team-card-items {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.team-names {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.text-contents {
+  text-align: center;
+}
+
+.team-text {
+  padding-top: 124px;
+  padding-bottom: 72px;
+}
+
+.section-team {
+  margin-bottom: 120px;
+}
+
+.team-card {
+  background-color: var(--white);
+}
+.team-card-items {
+  padding-bottom: 116px;
 }
