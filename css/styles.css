@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -22,6 +28,8 @@ body {
   font-family: var(--font-family, --second-family);
   background-color: var(--white);
   color: var(--slate);
+  margin: 0;
+  padding: 0;
 }
 button {
   cursor: pointer;
@@ -173,7 +181,7 @@ h3 {
 /* 3.ödev için */
 .container {
   width: 1440px;
-  margin: 0 156px;
+  /* margin: 0 156px; */
 }
 
 h1,
@@ -215,12 +223,6 @@ ul {
   padding: 24px 76px 24px 156px;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .hero {
   padding: 188px 0;
   margin-bottom: 120px;
@@ -258,8 +260,9 @@ ul {
   text-align: center;
 }
 
-.text-contents {
+.section-team .text-contents {
   text-align: center;
+  padding-bottom: 32px;
 }
 
 .team-text {
@@ -276,4 +279,50 @@ ul {
 }
 .team-card-items {
   padding-bottom: 116px;
+}
+
+.portfolio-cards {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-text {
+  padding-top: 124px;
+  padding-bottom: 72px;
+}
+
+.portfolio-items {
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+}
+
+.section-portfolio {
+  margin-bottom: 120px;
+}
+
+.section-portfolio h3 {
+  padding-left: 16px;
+  padding-top: 32px;
+}
+
+.section-portfolio .text-contents {
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+
+.footer-logo {
+  padding-top: 100px;
+  padding-bottom: 16px;
+}
+
+.footer-text {
+  padding-bottom: 100px;
+}
+
+.footer-content {
+  padding: 0 156px;
 }
