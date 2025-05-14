@@ -48,6 +48,7 @@ p {
 }
 button {
   cursor: pointer;
+  border: none;
 }
 li {
   list-style: none;
