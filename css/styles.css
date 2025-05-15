@@ -79,6 +79,7 @@ h3 {
 
 .container {
   width: 1440px;
+  margin: 0 auto;
 }
 
 .text-contents {
